@@ -1,0 +1,164 @@
+html {
+  cursor: crosshair;
+}
+
+body {
+ font-size: 12px;
+ font-family: sans-serif;
+ font-style: normal;
+ /*font-weight: 100;*/
+ text-align: center;
+ background-color: #fffaf0;
+}
+
+b {
+  font-size: 12px;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  text-align: center;
+  font-weight: bold;
+}
+
+header{
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 13.75%;
+  position: fixed;
+  width: 71%;
+  top: 0;
+}
+
+a:hover {
+  color: black;
+  background-color: chartreuse;
+  border: 1px solid black;
+  cursor: none;
+}
+
+a {
+  color: chartreuse;
+  text-decoration: none;
+}
+
+nav {
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  margin: 280px 0;
+}
+
+nav li {
+  display: block;
+  padding: 10px 25px;
+}
+
+a.pad {
+  padding: 10px 25px;
+}
+
+img.logo {
+  width: 50%;
+}
+
+img.group {
+  width: 45%;
+  margin-top: 70px;
+}
+
+img.roster {
+  width: 40%;
+  margin: 10px;
+}
+
+p.border {
+  margin: 50px 0px 25px 0px;
+  line-height: 100%;
+  text-align: center;
+}
+
+p.border-top {
+  margin-bottom: 50px;
+  line-height: 100%;
+  text-align: center;
+}
+
+p.top {
+  margin-top: 50px;
+}
+
+section.bottom {
+  margin-bottom: 100px;
+}
+
+section.pad-top {
+  margin-top: 150px;
+}
+
+section.contact1 {
+  text-align: center;
+  margin-top: 300px;
+}
+
+section.contact2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* ***MOBILE OPTIMIZATION*** */
+
+@media (max-width: 835px) {
+
+  header {
+    position: absolute;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 55px;
+  }
+
+  img.group {
+    width: 95%;
+    margin-top: 100px;
+  }
+
+  img.roster {
+    width: 75%;
+    margin: 10px;
+  }
+
+  nav {
+    position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    margin-top: 0;
+    width: 100%;
+  }
+
+  nav li {
+    display: inline-block;
+    padding: 10px 15px;
+  }
+
+  section.pad-top {
+    margin-top: 200px;
+  }
+
+}
+
+@media (max-width: 415px){
+
+  nav li {
+    display: inline-block;
+    padding: 2.5px 5px;
+  }
+
+  img.group {
+    margin-top: 80px;
+  }
+
+  section.pad-top {
+    margin-top: 150px;
+  }
+
+}
